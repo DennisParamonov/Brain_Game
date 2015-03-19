@@ -2,7 +2,14 @@
 using System.Collections;
 
 public class inputs : MonoBehaviour {
-	
+
+	public GameObject angryFab;
+	public GameObject sadFab;
+	public GameObject happyFab;
+	public GameObject confusedFab;
+	public GameObject insaneFab;
+	public GameObject wildcardFab;
+
 	public AudioSource mySource;
 	public AudioSource squishSounds;
 	float delay = .5f;
@@ -30,6 +37,10 @@ public class inputs : MonoBehaviour {
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
+			happyFab.gameObject.SetActive(true);
+		}
+		if(Input.GetKeyUp(KeyCode.UpArrow)){
+			happyFab.gameObject.SetActive(false);
 		}
 
 		if(Input.GetKeyDown(KeyCode.LeftArrow)){
@@ -38,6 +49,10 @@ public class inputs : MonoBehaviour {
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
+			sadFab.gameObject.SetActive(true);
+		}
+		if(Input.GetKeyUp(KeyCode.LeftArrow)){
+			sadFab.gameObject.SetActive(false);
 		}
 
 		if(Input.GetKeyDown(KeyCode.RightArrow)){
@@ -46,6 +61,10 @@ public class inputs : MonoBehaviour {
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
+			angryFab.gameObject.SetActive(true);
+		}
+		if(Input.GetKeyUp(KeyCode.RightArrow)){
+			angryFab.gameObject.SetActive(false);
 		}
 
 		if(Input.GetKeyDown(KeyCode.DownArrow)){
@@ -54,6 +73,10 @@ public class inputs : MonoBehaviour {
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
+			confusedFab.gameObject.SetActive(true);
+		}
+		if(Input.GetKeyUp(KeyCode.DownArrow)){
+			confusedFab.gameObject.SetActive(false);
 		}
 
 		if(Input.GetKeyDown(KeyCode.Space)){
@@ -62,6 +85,10 @@ public class inputs : MonoBehaviour {
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
+			insaneFab.gameObject.SetActive(true);
+		}
+		if(Input.GetKeyUp(KeyCode.Space)){
+			insaneFab.gameObject.SetActive(false);
 		}
 		if(Input.GetMouseButtonDown(0)){
 			Debug.Log("Wildcard");
@@ -69,6 +96,10 @@ public class inputs : MonoBehaviour {
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
+			wildcardFab.gameObject.SetActive(true);
+		}
+		if(Input.GetMouseButtonUp(0)){
+			wildcardFab.gameObject.SetActive(false);
 		}
 	
 	

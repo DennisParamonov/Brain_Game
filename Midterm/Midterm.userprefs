@@ -1,10 +1,18 @@
 ﻿<Properties>
+<<<<<<< HEAD
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Brain Dude\test.cs">
     <Files>
       <File FileName="Assets\inputs.cs" Line="27" Column="2" />
       <File FileName="Assets\Brain Dude\Animations.cs" Line="16" Column="9" />
       <File FileName="Assets\Brain Dude\test.cs" Line="14" Column="50" />
+=======
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\inputs.cs">
+    <Files>
+      <File FileName="Assets\inputs.cs" Line="101" Column="33" />
+      <File FileName="Assets\textChange.cs" Line="1" Column="1" />
+>>>>>>> cdce85508d2dc8462f0ba907cff3f41891ac2d9f
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
