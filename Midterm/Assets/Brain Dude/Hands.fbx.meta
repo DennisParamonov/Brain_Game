@@ -1,0 +1,709 @@
+fileFormatVersion: 2
+guid: e6c1edce1743c1a4db7662c2bfef42ae
+timeCreated: 1426790021
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: joint11
+    100004: joint12
+    100006: joint14
+    100008: joint15
+    100010: joint17
+    100012: joint18
+    100014: joint5
+    100016: joint6
+    100018: joint8
+    100020: joint9
+    100022: L_HAND
+    100024: L_HAND_CTRL
+    100026: L_IK_PALM
+    100028: L_INDEX
+    100030: L_INDEX_1
+    100032: L_INDEX_2
+    100034: L_INDEX_CTRL
+    100036: L_MIDDLE
+    100038: L_MIDDLE_1
+    100040: L_MIDDLE_2
+    100042: L_MIDDLE_CTRL
+    100044: L_PALM
+    100046: L_PINKY
+    100048: L_PINKY_1
+    100050: L_PINKY_2
+    100052: L_PINKY_CTRL
+    100054: L_RING
+    100056: L_RING_1
+    100058: L_RING_2
+    100060: L_RING_CTRL
+    100062: L_ROOT
+    100064: L_THUMB
+    100066: L_THUMB_1
+    100068: L_THUMB_2
+    100070: L_THUMB_CTRL
+    100072: L_WRIST
+    100074: R_HAND_CTRL
+    100076: R_IK_PALM
+    100078: R_INDEX_CTRL
+    100080: R_Index_Finger
+    100082: R_MIDDLE_CTRL
+    100084: R_Middle_Finger
+    100086: R_Palm
+    100088: R_pinky
+    100090: R_PINKY_CTRL
+    100092: R_RING_CTRL
+    100094: R_Ring_Finger
+    100096: R_ROOT
+    100098: R_Thumb
+    100100: R_THUMB_CTRL
+    100102: R_Wrist
+    100104: Right_Hand
+    400000: //RootNode
+    400002: joint11
+    400004: joint12
+    400006: joint14
+    400008: joint15
+    400010: joint17
+    400012: joint18
+    400014: joint5
+    400016: joint6
+    400018: joint8
+    400020: joint9
+    400022: L_HAND
+    400024: L_HAND_CTRL
+    400026: L_IK_PALM
+    400028: L_INDEX
+    400030: L_INDEX_1
+    400032: L_INDEX_2
+    400034: L_INDEX_CTRL
+    400036: L_MIDDLE
+    400038: L_MIDDLE_1
+    400040: L_MIDDLE_2
+    400042: L_MIDDLE_CTRL
+    400044: L_PALM
+    400046: L_PINKY
+    400048: L_PINKY_1
+    400050: L_PINKY_2
+    400052: L_PINKY_CTRL
+    400054: L_RING
+    400056: L_RING_1
+    400058: L_RING_2
+    400060: L_RING_CTRL
+    400062: L_ROOT
+    400064: L_THUMB
+    400066: L_THUMB_1
+    400068: L_THUMB_2
+    400070: L_THUMB_CTRL
+    400072: L_WRIST
+    400074: R_HAND_CTRL
+    400076: R_IK_PALM
+    400078: R_INDEX_CTRL
+    400080: R_Index_Finger
+    400082: R_MIDDLE_CTRL
+    400084: R_Middle_Finger
+    400086: R_Palm
+    400088: R_pinky
+    400090: R_PINKY_CTRL
+    400092: R_RING_CTRL
+    400094: R_Ring_Finger
+    400096: R_ROOT
+    400098: R_Thumb
+    400100: R_THUMB_CTRL
+    400102: R_Wrist
+    400104: Right_Hand
+    4300000: Right_Hand
+    4300002: L_HAND
+    7400000: R Hand Iddle
+    7400002: R Hand Poke
+    7400004: L Hand Iddle
+    7400006: L Hand Poke
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: L_HAND
+    13700002: Right_Hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: R Hand Iddle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_HAND
+        weight: 1
+      - path: L_HAND_CTRL
+        weight: 1
+      - path: L_IK_PALM
+        weight: 1
+      - path: L_INDEX_CTRL
+        weight: 1
+      - path: L_MIDDLE_CTRL
+        weight: 1
+      - path: L_PINKY_CTRL
+        weight: 1
+      - path: L_RING_CTRL
+        weight: 1
+      - path: L_ROOT
+        weight: 1
+      - path: L_ROOT/L_WRIST
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1/L_INDEX_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1/L_MIDDLE_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1/L_PINKY_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1/L_RING_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1/L_THUMB_2
+        weight: 1
+      - path: L_THUMB_CTRL
+        weight: 1
+      - path: R_HAND_CTRL
+        weight: 1
+      - path: R_IK_PALM
+        weight: 1
+      - path: R_INDEX_CTRL
+        weight: 1
+      - path: R_MIDDLE_CTRL
+        weight: 1
+      - path: R_PINKY_CTRL
+        weight: 1
+      - path: R_RING_CTRL
+        weight: 1
+      - path: R_ROOT
+        weight: 1
+      - path: R_ROOT/R_Wrist
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14/joint15
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11/joint12
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5/joint6
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8/joint9
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17/joint18
+        weight: 1
+      - path: R_THUMB_CTRL
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: R Hand Poke
+      takeName: Take 001
+      firstFrame: 24
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_HAND
+        weight: 1
+      - path: L_HAND_CTRL
+        weight: 1
+      - path: L_IK_PALM
+        weight: 1
+      - path: L_INDEX_CTRL
+        weight: 1
+      - path: L_MIDDLE_CTRL
+        weight: 1
+      - path: L_PINKY_CTRL
+        weight: 1
+      - path: L_RING_CTRL
+        weight: 1
+      - path: L_ROOT
+        weight: 1
+      - path: L_ROOT/L_WRIST
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1/L_INDEX_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1/L_MIDDLE_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1/L_PINKY_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1/L_RING_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1/L_THUMB_2
+        weight: 1
+      - path: L_THUMB_CTRL
+        weight: 1
+      - path: R_HAND_CTRL
+        weight: 1
+      - path: R_IK_PALM
+        weight: 1
+      - path: R_INDEX_CTRL
+        weight: 1
+      - path: R_MIDDLE_CTRL
+        weight: 1
+      - path: R_PINKY_CTRL
+        weight: 1
+      - path: R_RING_CTRL
+        weight: 1
+      - path: R_ROOT
+        weight: 1
+      - path: R_ROOT/R_Wrist
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14/joint15
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11/joint12
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5/joint6
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8/joint9
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17/joint18
+        weight: 1
+      - path: R_THUMB_CTRL
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: L Hand Iddle
+      takeName: Take 001
+      firstFrame: 37
+      lastFrame: 60
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_HAND
+        weight: 1
+      - path: L_HAND_CTRL
+        weight: 1
+      - path: L_IK_PALM
+        weight: 1
+      - path: L_INDEX_CTRL
+        weight: 1
+      - path: L_MIDDLE_CTRL
+        weight: 1
+      - path: L_PINKY_CTRL
+        weight: 1
+      - path: L_RING_CTRL
+        weight: 1
+      - path: L_ROOT
+        weight: 1
+      - path: L_ROOT/L_WRIST
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1/L_INDEX_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1/L_MIDDLE_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1/L_PINKY_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1/L_RING_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1/L_THUMB_2
+        weight: 1
+      - path: L_THUMB_CTRL
+        weight: 1
+      - path: R_HAND_CTRL
+        weight: 1
+      - path: R_IK_PALM
+        weight: 1
+      - path: R_INDEX_CTRL
+        weight: 1
+      - path: R_MIDDLE_CTRL
+        weight: 1
+      - path: R_PINKY_CTRL
+        weight: 1
+      - path: R_RING_CTRL
+        weight: 1
+      - path: R_ROOT
+        weight: 1
+      - path: R_ROOT/R_Wrist
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14/joint15
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11/joint12
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5/joint6
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8/joint9
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17/joint18
+        weight: 1
+      - path: R_THUMB_CTRL
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: L Hand Poke
+      takeName: Take 001
+      firstFrame: 61
+      lastFrame: 72
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: L_HAND
+        weight: 1
+      - path: L_HAND_CTRL
+        weight: 1
+      - path: L_IK_PALM
+        weight: 1
+      - path: L_INDEX_CTRL
+        weight: 1
+      - path: L_MIDDLE_CTRL
+        weight: 1
+      - path: L_PINKY_CTRL
+        weight: 1
+      - path: L_RING_CTRL
+        weight: 1
+      - path: L_ROOT
+        weight: 1
+      - path: L_ROOT/L_WRIST
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1/L_INDEX_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1/L_MIDDLE_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1/L_PINKY_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1/L_RING_2
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1
+        weight: 1
+      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1/L_THUMB_2
+        weight: 1
+      - path: L_THUMB_CTRL
+        weight: 1
+      - path: R_HAND_CTRL
+        weight: 1
+      - path: R_IK_PALM
+        weight: 1
+      - path: R_INDEX_CTRL
+        weight: 1
+      - path: R_MIDDLE_CTRL
+        weight: 1
+      - path: R_PINKY_CTRL
+        weight: 1
+      - path: R_RING_CTRL
+        weight: 1
+      - path: R_ROOT
+        weight: 1
+      - path: R_ROOT/R_Wrist
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14/joint15
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11/joint12
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5/joint6
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8/joint9
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17/joint18
+        weight: 1
+      - path: R_THUMB_CTRL
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

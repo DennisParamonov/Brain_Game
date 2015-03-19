@@ -1,0 +1,285 @@
+fileFormatVersion: 2
+guid: 217cbe851c116af4fa0830b5d07ce456
+timeCreated: 1426792716
+licenseType: Free
+ModelImporter:
+  serializedVersion: 18
+  fileIDToRecycleName:
+    100000: joint11
+    100002: joint12
+    100004: joint14
+    100006: joint15
+    100008: joint17
+    100010: joint18
+    100012: joint5
+    100014: joint6
+    100016: joint8
+    100018: joint9
+    100020: //RootNode
+    100022: R_HAND_CTRL
+    100024: R_IK_PALM
+    100026: R_INDEX_CTRL
+    100028: R_Index_Finger
+    100030: R_MIDDLE_CTRL
+    100032: R_Middle_Finger
+    100034: R_Palm
+    100036: R_pinky
+    100038: R_PINKY_CTRL
+    100040: R_RING_CTRL
+    100042: R_Ring_Finger
+    100044: R_ROOT
+    100046: R_Thumb
+    100048: R_THUMB_CTRL
+    100050: R_Wrist
+    100052: Right_Hand
+    400000: joint11
+    400002: joint12
+    400004: joint14
+    400006: joint15
+    400008: joint17
+    400010: joint18
+    400012: joint5
+    400014: joint6
+    400016: joint8
+    400018: joint9
+    400020: //RootNode
+    400022: R_HAND_CTRL
+    400024: R_IK_PALM
+    400026: R_INDEX_CTRL
+    400028: R_Index_Finger
+    400030: R_MIDDLE_CTRL
+    400032: R_Middle_Finger
+    400034: R_Palm
+    400036: R_pinky
+    400038: R_PINKY_CTRL
+    400040: R_RING_CTRL
+    400042: R_Ring_Finger
+    400044: R_ROOT
+    400046: R_Thumb
+    400048: R_THUMB_CTRL
+    400050: R_Wrist
+    400052: Right_Hand
+    4300000: Right_Hand
+    7400000: R Hand Iddle
+    7400002: R hand Poke
+    9500000: //RootNode
+    11100000: //RootNode
+    13700000: Right_Hand
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationCompression: 1
+    animationRotationError: .5
+    animationPositionError: .5
+    animationScaleError: .5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: R Hand Iddle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 24
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R_HAND_CTRL
+        weight: 1
+      - path: R_IK_PALM
+        weight: 1
+      - path: R_INDEX_CTRL
+        weight: 1
+      - path: R_MIDDLE_CTRL
+        weight: 1
+      - path: R_PINKY_CTRL
+        weight: 1
+      - path: R_RING_CTRL
+        weight: 1
+      - path: R_ROOT
+        weight: 1
+      - path: R_ROOT/R_Wrist
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14/joint15
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11/joint12
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5/joint6
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8/joint9
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17/joint18
+        weight: 1
+      - path: R_THUMB_CTRL
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    - serializedVersion: 16
+      name: R hand Poke
+      takeName: Take 001
+      firstFrame: 25
+      lastFrame: 36
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: R_HAND_CTRL
+        weight: 1
+      - path: R_IK_PALM
+        weight: 1
+      - path: R_INDEX_CTRL
+        weight: 1
+      - path: R_MIDDLE_CTRL
+        weight: 1
+      - path: R_PINKY_CTRL
+        weight: 1
+      - path: R_RING_CTRL
+        weight: 1
+      - path: R_ROOT
+        weight: 1
+      - path: R_ROOT/R_Wrist
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14/joint15
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11/joint12
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5/joint6
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8/joint9
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17
+        weight: 1
+      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17/joint18
+        weight: 1
+      - path: R_THUMB_CTRL
+        weight: 1
+      - path: Right_Hand
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    splitTangentsAcrossUV: 1
+    normalImportMode: 0
+    tangentImportMode: 1
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    human: []
+    skeleton: []
+    armTwist: .5
+    foreArmTwist: .5
+    upperLegTwist: .5
+    legTwist: .5
+    armStretch: .0500000007
+    legStretch: .0500000007
+    feetSpacing: 0
+    rootMotionBoneName: 
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
