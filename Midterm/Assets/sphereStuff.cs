@@ -2,7 +2,8 @@
 using System.Collections;
 
 public class sphereStuff : MonoBehaviour {
-	
+
+	public GameObject fabs;
 	Color colorStart;
 	Color colorEnd;
 	float rate = 1;
@@ -13,11 +14,10 @@ public class sphereStuff : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 
+		transform.SetParent(fabs.transform,false);
 		GetComponent<Rigidbody>().AddForce(Vector3.forward* Random.Range (-1000,-1500));
-
 		ratio = Time.deltaTime;
 		InvokeRepeating("ChangeScale",.5f,.5f);
-
 		colorStart = new Color(Random.value, Random.value, Random.value);
 		colorEnd = new Color(Random.value, Random.value, Random.value); 
 
