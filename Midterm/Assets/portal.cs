@@ -14,6 +14,7 @@ public class portal : MonoBehaviour {
 	
 	}
 	void OnTriggerEnter(Collider other){
+		Debug.Log("hi");
 		other.gameObject.transform.position = frontPortal.transform.position + 
 			new Vector3 (Random.Range(-15f,15f), Random.Range(-15f,15f), 0);
 		}
