@@ -1,6 +1,6 @@
 fileFormatVersion: 2
-guid: 6a3ee39a361564949bdaa4d8e70b3392
-timeCreated: 1426737012
+guid: 8ece650c783882e42aed6ab9cac6ede8
+timeCreated: 1426738942
 licenseType: Free
 ModelImporter:
   serializedVersion: 18
@@ -214,23 +214,19 @@ ModelImporter:
     400204: transform1
     400206: transform2
     2300000: L_EYE_WHITE
-    2300002: L_HAND
-    2300004: LEFT_BRAIN
-    2300006: POCKET
-    2300008: R_EYE_WHITE
-    2300010: RIGHT_BRAIN
-    2300012: Right_Hand
-    2300014: SHIRT
-    2300016: Tie
+    2300002: LEFT_BRAIN
+    2300004: POCKET
+    2300006: R_EYE_WHITE
+    2300008: RIGHT_BRAIN
+    2300010: SHIRT
+    2300012: Tie
     3300000: L_EYE_WHITE
-    3300002: L_HAND
-    3300004: LEFT_BRAIN
-    3300006: POCKET
-    3300008: R_EYE_WHITE
-    3300010: RIGHT_BRAIN
-    3300012: Right_Hand
-    3300014: SHIRT
-    3300016: Tie
+    3300002: LEFT_BRAIN
+    3300004: POCKET
+    3300006: R_EYE_WHITE
+    3300008: RIGHT_BRAIN
+    3300010: SHIRT
+    3300012: Tie
     4300000: Tie
     4300002: Right_Hand
     4300004: L_HAND
@@ -245,8 +241,8 @@ ModelImporter:
     4300022: R_PUPIL1
     4300024: L_EYEBROW1
     4300026: R_EYEBROW1
-    7400000: R Hand Iddle
-    7400002: R Hand Poke
+    7400000: R Hand Poke
+    7400002: R Hand Iddle
     7400004: L Hand Iddle
     7400006: L Hand Poke
     7400008: Angry
@@ -255,14 +251,15 @@ ModelImporter:
     7400014: Insane
     7400016: Sad
     7400018: Wildcard
-    7400020: Iddle
     9500000: //RootNode
     11100000: //RootNode
     13700000: BODY
     13700002: L_EYEBROW1
-    13700004: L_PUPIL1
-    13700006: R_EYEBROW1
-    13700008: R_PUPIL1
+    13700004: L_HAND
+    13700006: L_PUPIL1
+    13700008: R_EYEBROW1
+    13700010: R_PUPIL1
+    13700012: Right_Hand
   materials:
     importMaterials: 1
     materialName: 0
@@ -2390,240 +2387,6 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 133
       lastFrame: 144
-      wrapMode: 0
-      orientationOffsetY: 0
-      level: 0
-      cycleOffset: 0
-      loop: 0
-      loopTime: 0
-      loopBlend: 0
-      loopBlendOrientation: 0
-      loopBlendPositionY: 0
-      loopBlendPositionXZ: 0
-      keepOriginalOrientation: 0
-      keepOriginalPositionY: 1
-      keepOriginalPositionXZ: 0
-      heightFromFeet: 0
-      mirror: 0
-      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
-      curves: []
-      events: []
-      transformMask:
-      - path: 
-        weight: 1
-      - path: BODY
-        weight: 1
-      - path: L_EYE_WHITE
-        weight: 1
-      - path: L_EYEBROW
-        weight: 1
-      - path: L_EYEBROW1
-        weight: 1
-      - path: L_EYEBROW_CTRL
-        weight: 1
-      - path: L_HAND
-        weight: 1
-      - path: L_HAND_CTRL
-        weight: 1
-      - path: L_HAND_CTRL/L_IK_HAND
-        weight: 1
-      - path: L_IK_PALM
-        weight: 1
-      - path: L_INDEX_CTRL
-        weight: 1
-      - path: L_INDEX_CTRL/L_IK_INDEX
-        weight: 1
-      - path: L_INDEX_CTRL/L_IK_INDEX_1
-        weight: 1
-      - path: L_MIDDLE_CTRL
-        weight: 1
-      - path: L_MIDDLE_CTRL/L_IK_MIDDLE
-        weight: 1
-      - path: L_MIDDLE_CTRL/L_IK_MIDDLE_1
-        weight: 1
-      - path: L_MOUTH
-        weight: 1
-      - path: L_MOUTH_CTRL
-        weight: 1
-      - path: L_PINKY_CTRL
-        weight: 1
-      - path: L_PINKY_CTRL/L_IK_PINKY
-        weight: 1
-      - path: L_PINKY_CTRL/L_IK_PINKY_1
-        weight: 1
-      - path: L_PUPIL
-        weight: 1
-      - path: L_PUPIL1
-        weight: 1
-      - path: L_PUPIL_CTRL
-        weight: 1
-      - path: L_RING_CTRL
-        weight: 1
-      - path: L_RING_CTRL/L_IK_RING
-        weight: 1
-      - path: L_RING_CTRL/L_IK_RING_1
-        weight: 1
-      - path: L_ROOT
-        weight: 1
-      - path: L_ROOT/L_WRIST
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_INDEX/L_INDEX_1/L_INDEX_2
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_MIDDLE/L_MIDDLE_1/L_MIDDLE_2
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_PINKY/L_PINKY_1/L_PINKY_2
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_RING
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_RING/L_RING_1/L_RING_2
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1
-        weight: 1
-      - path: L_ROOT/L_WRIST/L_PALM/L_THUMB/L_THUMB_1/L_THUMB_2
-        weight: 1
-      - path: L_THUMB_CTRL
-        weight: 1
-      - path: L_THUMB_CTRL/L_IK_THUMB
-        weight: 1
-      - path: L_THUMB_CTRL/L_IK_THUMB_1
-        weight: 1
-      - path: LEFT_BRAIN
-        weight: 1
-      - path: pCube6
-        weight: 1
-      - path: pCube6/transform2
-        weight: 1
-      - path: pCube7
-        weight: 1
-      - path: pCube7/transform1
-        weight: 1
-      - path: pCube11
-        weight: 1
-      - path: POCKET
-        weight: 1
-      - path: R_EYE_WHITE
-        weight: 1
-      - path: R_EYEBROW
-        weight: 1
-      - path: R_EYEBROW1
-        weight: 1
-      - path: R_EYEBROW_CTRL
-        weight: 1
-      - path: R_HAND_CTRL
-        weight: 1
-      - path: R_HAND_CTRL/R_IK_PALM 1
-        weight: 1
-      - path: R_IK_PALM
-        weight: 1
-      - path: R_INDEX_CTRL
-        weight: 1
-      - path: R_INDEX_CTRL/R_IK_INDEX_1
-        weight: 1
-      - path: R_INDEX_CTRL/R_IK_INDEX_2
-        weight: 1
-      - path: R_MIDDLE_CTRL
-        weight: 1
-      - path: R_MIDDLE_CTRL/R_IK_MIDDLE_1
-        weight: 1
-      - path: R_MIDDLE_CTRL/R_IK_MIDDLE_2
-        weight: 1
-      - path: R_MOUTH
-        weight: 1
-      - path: R_MOUTH_CTRL
-        weight: 1
-      - path: R_PINKY_CTRL
-        weight: 1
-      - path: R_PINKY_CTRL/R_IK_PINKY1
-        weight: 1
-      - path: R_PINKY_CTRL/R_IK_PINKY_2
-        weight: 1
-      - path: R_PUPIL
-        weight: 1
-      - path: R_PUPIL1
-        weight: 1
-      - path: R_PUPIL_CTRL
-        weight: 1
-      - path: R_RING_CTRL
-        weight: 1
-      - path: R_RING_CTRL/R_IK_RING_1
-        weight: 1
-      - path: R_RING_CTRL/R_IK_RING_2
-        weight: 1
-      - path: R_ROOT
-        weight: 1
-      - path: R_ROOT/R_Wrist
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Index_Finger/joint14/joint15
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Middle_Finger/joint11/joint12
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_pinky
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_pinky/joint5/joint6
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Ring_Finger/joint8/joint9
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17
-        weight: 1
-      - path: R_ROOT/R_Wrist/R_Palm/R_Thumb/joint17/joint18
-        weight: 1
-      - path: R_THUMB_CTRL
-        weight: 1
-      - path: R_THUMB_CTRL/R_IK_THUMB_1
-        weight: 1
-      - path: R_THUMB_CTRL/R_IK_THUMB_2
-        weight: 1
-      - path: RIGHT_BRAIN
-        weight: 1
-      - path: Right_Hand
-        weight: 1
-      - path: SHIRT
-        weight: 1
-      - path: Tie
-        weight: 1
-      maskType: 0
-      maskSource: {instanceID: 0}
-    - serializedVersion: 16
-      name: Iddle
-      takeName: Take 001
-      firstFrame: 145
-      lastFrame: 156
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
