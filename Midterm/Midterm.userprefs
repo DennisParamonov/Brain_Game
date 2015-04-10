@@ -1,11 +1,8 @@
 ﻿<Properties>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\Brain Dude\test2.cs">
+  <MonoDevelop.Ide.Workspace />
+  <MonoDevelop.Ide.Workbench ActiveDocument="..\..\CoreLab-Environments\2dspreadsheet\Assets\Resources\GameValues.csv">
     <Files>
-      <File FileName="Assets\inputs.cs" Line="52" Column="26" />
-      <File FileName="Assets\Brain Dude\Animations.cs" Line="42" Column="45" />
-      <File FileName="Assets\Brain Dude\test.cs" Line="14" Column="1" />
-      <File FileName="Assets\Brain Dude\test2.cs" Line="18" Column="51" />
+      <File FileName="..\..\CoreLab-Environments\2dspreadsheet\Assets\Resources\GameValues.csv" Line="16" Column="34" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
