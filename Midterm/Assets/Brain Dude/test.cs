@@ -12,8 +12,11 @@ public class test : MonoBehaviour {
 	// Update is called once per frame
 	void Update () {
 
-		if (Input.GetKeyDown (KeyCode.RightArrow)) {
-			Debug.Log ("Sad");
+		if (Input.GetKeyDown (KeyCode.UpArrow)){
+			GetComponent<Animation> ().Play ("R Hand Poke");
+		} else if (Input.GetKeyDown (KeyCode.Space)){
+			GetComponent<Animation> ().Play ("R Hand Poke");
+		} else if (Input.GetMouseButtonDown(0)){
 			GetComponent<Animation> ().Play ("R Hand Poke");
 		} else {
 			GetComponent<Animation>().Play("R Hand Iddle");

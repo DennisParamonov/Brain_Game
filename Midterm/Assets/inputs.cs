@@ -1,18 +1,16 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-
-
 public class inputs : MonoBehaviour {
 
 	enum guyState{
-		angry = 0, 
+		angry = 6, 
 		sad = 1, 
 		happy = 2, 
 		confused = 3, 
 		insane = 4,
 		wildcard = 5,
-		idle = 6
+		idle = 0,
 	};
 
 	guyState currentState;
@@ -20,13 +18,6 @@ public class inputs : MonoBehaviour {
 	public AudioSource mySource;
 	public AudioSource squishSounds;
 	float delay = .5f;
-
-	bool angryState;
-	bool sadState;
-	bool happyState;
-	bool confusedState;
-	bool insaneState;
-	bool wildcardState;
 
 	public GameObject angryFab;
 	public GameObject sadFab;
@@ -44,7 +35,7 @@ public class inputs : MonoBehaviour {
 	public AudioClip[] squishy;
 
 
-		void Update()
+	void Update()
 		{
 		getInput();
 		determineState();
@@ -58,31 +49,67 @@ public class inputs : MonoBehaviour {
 		case guyState.angry:
 
 			angryFab.gameObject.SetActive(true);
+			//angryFab.gameObject.SetActive(false);
+			sadFab.gameObject.SetActive(false);
+			happyFab.gameObject.SetActive(false);
+			confusedFab.gameObject.SetActive(false);
+			insaneFab.gameObject.SetActive(false);
+			wildcardFab.gameObject.SetActive(false);
 			
 			break;
 		case guyState.sad:
 
 			sadFab.gameObject.SetActive(true);
+			angryFab.gameObject.SetActive(false);
+			//sadFab.gameObject.SetActive(false);
+			happyFab.gameObject.SetActive(false);
+			confusedFab.gameObject.SetActive(false);
+			insaneFab.gameObject.SetActive(false);
+			wildcardFab.gameObject.SetActive(false);
 
 			break;
 		case guyState.happy:
 
 			happyFab.gameObject.SetActive(true);
+			angryFab.gameObject.SetActive(false);
+			sadFab.gameObject.SetActive(false);
+			//happyFab.gameObject.SetActive(false);
+			confusedFab.gameObject.SetActive(false);
+			insaneFab.gameObject.SetActive(false);
+			wildcardFab.gameObject.SetActive(false);
 			
 			break;
 		case guyState.confused:
 
 			confusedFab.gameObject.SetActive(true);
+			angryFab.gameObject.SetActive(false);
+			sadFab.gameObject.SetActive(false);
+			happyFab.gameObject.SetActive(false);
+			//confusedFab.gameObject.SetActive(false);
+			insaneFab.gameObject.SetActive(false);
+			wildcardFab.gameObject.SetActive(false);
 			
 			break;
 		case guyState.insane:
 
 			insaneFab.gameObject.SetActive(true);
+			angryFab.gameObject.SetActive(false);
+			sadFab.gameObject.SetActive(false);
+			happyFab.gameObject.SetActive(false);
+			confusedFab.gameObject.SetActive(false);
+			//insaneFab.gameObject.SetActive(false);
+			wildcardFab.gameObject.SetActive(false);
 			
 			break;
 		case guyState.wildcard:
 
 			wildcardFab.gameObject.SetActive(true);
+			angryFab.gameObject.SetActive(false);
+			sadFab.gameObject.SetActive(false);
+			happyFab.gameObject.SetActive(false);
+			confusedFab.gameObject.SetActive(false);
+			insaneFab.gameObject.SetActive(false);
+			//wildcardFab.gameObject.SetActive(false);
 			
 			break;
 
@@ -129,7 +156,7 @@ public class inputs : MonoBehaviour {
 			currentState = guyState.idle;
 		}
 		if(Input.GetKeyDown(KeyCode.DownArrow)){
-			mySource.clip = happy[Random.Range(0,angry.Length)];
+			mySource.clip = happy[Random.Range(0,happy.Length)];
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
@@ -157,8 +184,10 @@ public class inputs : MonoBehaviour {
 		}
 		if(Input.GetKeyUp(KeyCode.Space)){
 			currentState = guyState.idle;
+		}
 	
 		if (Input.GetMouseButtonDown(0)){
+				Debug.Log("wildcard");
 			mySource.clip = wildcard[Random.Range(0,wildcard.Length)];
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
@@ -173,4 +202,3 @@ public class inputs : MonoBehaviour {
 
 }
 
-}
