@@ -1,7 +1,32 @@
 ﻿using UnityEngine;
 using System.Collections;
 
+
+
 public class inputs : MonoBehaviour {
+
+	enum guyState{
+		angry = 0, 
+		sad = 1, 
+		happy = 2, 
+		confused = 3, 
+		insane = 4,
+		wildcard = 5,
+		idle = 6
+	};
+
+	guyState currentState;
+
+	public AudioSource mySource;
+	public AudioSource squishSounds;
+	float delay = .5f;
+
+	bool angryState;
+	bool sadState;
+	bool happyState;
+	bool confusedState;
+	bool insaneState;
+	bool wildcardState;
 
 	public GameObject angryFab;
 	public GameObject sadFab;
@@ -9,11 +34,7 @@ public class inputs : MonoBehaviour {
 	public GameObject confusedFab;
 	public GameObject insaneFab;
 	public GameObject wildcardFab;
-
-	public AudioSource mySource;
-	public AudioSource squishSounds;
-	float delay = .5f;
-
+	
 	public AudioClip[] angry;
 	public AudioClip[] sad;
 	public AudioClip[] happy;
@@ -23,85 +44,133 @@ public class inputs : MonoBehaviour {
 	public AudioClip[] squishy;
 
 
-	// Use this for initialization
-	void Start () {
-	
-	}
-	
-	// Update is called once per frame
-	void Update () {
-
-		if(Input.GetKeyDown(KeyCode.UpArrow)){
-			Debug.Log("Happy");
-			mySource.clip = happy[Random.Range(0,happy.Length)];
-			mySource.PlayDelayed (delay);
-			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
-			squishSounds.Play ();
-			happyFab.gameObject.SetActive(true);
-		}
-		if(Input.GetKeyUp(KeyCode.UpArrow)){
-			happyFab.gameObject.SetActive(false);
+		void Update()
+		{
+		getInput();
+		determineState();
 		}
 
-		if(Input.GetKeyDown(KeyCode.LeftArrow)){
-			Debug.Log("Sad");
-			mySource.clip = sad[Random.Range(0,sad.Length)];
-			mySource.PlayDelayed (delay);
-			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
-			squishSounds.Play ();
+	void determineState(){
+
+		switch (currentState)
+		{
+			
+		case guyState.angry:
+
+			angryFab.gameObject.SetActive(true);
+			
+			break;
+		case guyState.sad:
+
 			sadFab.gameObject.SetActive(true);
-		}
-		if(Input.GetKeyUp(KeyCode.LeftArrow)){
+
+			break;
+		case guyState.happy:
+
+			happyFab.gameObject.SetActive(true);
+			
+			break;
+		case guyState.confused:
+
+			confusedFab.gameObject.SetActive(true);
+			
+			break;
+		case guyState.insane:
+
+			insaneFab.gameObject.SetActive(true);
+			
+			break;
+		case guyState.wildcard:
+
+			wildcardFab.gameObject.SetActive(true);
+			
+			break;
+
+		case guyState.idle:
+			angryFab.gameObject.SetActive(false);
 			sadFab.gameObject.SetActive(false);
+			happyFab.gameObject.SetActive(false);
+			confusedFab.gameObject.SetActive(false);
+			insaneFab.gameObject.SetActive(false);
+			wildcardFab.gameObject.SetActive(false);
+
+			break;
+
+		default:
+			
+			break;
+			
 		}
 
-		if(Input.GetKeyDown(KeyCode.RightArrow)){
-			Debug.Log("Angry");
+	}
+
+	void getInput() {
+		if(Input.GetKeyDown(KeyCode.LeftArrow)){
 			mySource.clip = angry[Random.Range(0,angry.Length)];
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
-			angryFab.gameObject.SetActive(true);
-		}
-		if(Input.GetKeyUp(KeyCode.RightArrow)){
-			angryFab.gameObject.SetActive(false);
+			currentState = guyState.angry;
 		}
 
+		if(Input.GetKeyUp(KeyCode.LeftArrow)){
+			currentState = guyState.idle;
+		}
+
+	
+		if(Input.GetKeyDown(KeyCode.RightArrow)){
+			mySource.clip = sad[Random.Range(0,sad.Length)];
+			mySource.PlayDelayed (delay);
+			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
+			squishSounds.Play ();
+			currentState = guyState.sad;
+		}
+		if(Input.GetKeyUp(KeyCode.RightArrow)){
+			currentState = guyState.idle;
+		}
 		if(Input.GetKeyDown(KeyCode.DownArrow)){
-			Debug.Log("Confused");
+			mySource.clip = happy[Random.Range(0,angry.Length)];
+			mySource.PlayDelayed (delay);
+			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
+			squishSounds.Play ();
+			currentState = guyState.happy;
+		}
+		if(Input.GetKeyUp(KeyCode.DownArrow)){
+			currentState = guyState.idle;
+		}
+		if(Input.GetKeyDown(KeyCode.UpArrow)){
 			mySource.clip = confused[Random.Range(0,confused.Length)];
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
-			confusedFab.gameObject.SetActive(true);
+			currentState = guyState.confused;
 		}
-		if(Input.GetKeyUp(KeyCode.DownArrow)){
-			confusedFab.gameObject.SetActive(false);
+		if(Input.GetKeyUp(KeyCode.UpArrow)){
+			currentState = guyState.idle;
 		}
-
 		if(Input.GetKeyDown(KeyCode.Space)){
-			Debug.Log("Insane");
 			mySource.clip = insane[Random.Range(0,insane.Length)];
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
-			insaneFab.gameObject.SetActive(true);
+			currentState = guyState.insane;
 		}
 		if(Input.GetKeyUp(KeyCode.Space)){
-			insaneFab.gameObject.SetActive(false);
-		}
-		if(Input.GetMouseButtonDown(0)){
-			Debug.Log("Wildcard");
+			currentState = guyState.idle;
+	
+		if (Input.GetMouseButtonDown(0)){
 			mySource.clip = wildcard[Random.Range(0,wildcard.Length)];
 			mySource.PlayDelayed (delay);
 			squishSounds.clip = squishy[Random.Range(0,squishy.Length)];
 			squishSounds.Play ();
-			wildcardFab.gameObject.SetActive(true);
-		}
-		if(Input.GetMouseButtonUp(0)){
-			wildcardFab.gameObject.SetActive(false);
-		}
-	
-	
+			currentState = guyState.wildcard;
+			}
+		
+			if(Input.GetMouseButtonUp(0)){
+				currentState = guyState.idle;
+			}
 	}
+
+}
+
 }
